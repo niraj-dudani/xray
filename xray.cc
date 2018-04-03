@@ -3,7 +3,8 @@
 
 using namespace std;
 
-vector<int> read_bits(float value) {
+template <typename T>
+vector<int> read_bits(T value) {
 	char* value_address = (char*) &value;
 	int n_bytes = sizeof(value);
 	vector<int> bits;
