@@ -30,12 +30,12 @@ vector<vector<int>> read_bits(T value) {
 }
 
 void show_bits(vector<vector<int>> bytes) {
-	for(
+	for (
 		vector<vector<int>>::iterator i_byte = bytes.begin();
 		i_byte != bytes.end();
 		i_byte++
 	) {
-		for(
+		for (
 			vector<int>::iterator i_bit = i_byte->begin();
 			i_bit != i_byte->end();
 			i_bit++
